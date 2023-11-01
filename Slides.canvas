@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"e725d9311ce79a0b","type":"file","file":"SAP Condensed/Images/Pasted image 20231030194110.png","x":-320,"y":-360,"width":400,"height":227},
+		{"id":"d4389c17c3641718","type":"file","file":"SAP Condensed/Images/Pasted image 20231030193939.png","x":-320,"y":-100,"width":399,"height":225},
+		{"id":"dce55c9e50ce0764","type":"file","file":"SAP Condensed/Images/Pasted image 20231013161414.png","x":120,"y":-351,"width":399,"height":209},
+		{"id":"778db0c59d826a59","type":"file","file":"SAP Condensed/Images/Pasted image 20231013155031.png","x":120,"y":-100,"width":400,"height":225},
+		{"id":"75978d2c6568edb2","type":"file","file":"SAP Condensed/Images/Pasted image 20231013123031.png","x":540,"y":-99,"width":400,"height":224},
+		{"id":"a126c35f164f5020","type":"file","file":"SAP Condensed/Images/Pasted image 20231009161730.png","x":540,"y":-360,"width":400,"height":223},
+		{"id":"ddf0b4acb677d628","type":"file","file":"SAP Condensed/Images/Pasted image 20231009134444.png","x":120,"y":159,"width":400,"height":224},
+		{"id":"a5d64df8e908eecf","type":"file","file":"SAP Condensed/Images/Pasted image 20231009134645.png","x":-320,"y":160,"width":399,"height":223},
+		{"id":"ccaeb48494851842","type":"file","file":"SAP Condensed/Images/Pasted image 20231009132250.png","x":120,"y":-640,"width":400,"height":224},
+		{"id":"e8f9e5cd46149af5","type":"file","file":"SAP Condensed/Images/Pasted image 20231006192938.png","x":-320,"y":-641,"width":400,"height":225}
+	],
+	"edges":[]
+}
