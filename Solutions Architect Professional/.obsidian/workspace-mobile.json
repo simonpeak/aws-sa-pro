@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "dfc78e4baae07f8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "4aa33715212c15c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64dfbc36f13779ac",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "b345d33f92dd83f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11. Migrations & Extensions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a489247066565e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "15. Disaster Recovery & Business Continuity in AWS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "184d95c42203fece",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03. Networking & Hybrid.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "140c08cf426a544b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "4d9e74a263d333bd",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "bcc5d75433849ffd",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "408fb99a281b9577",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "2daeb6b69fcd75a8",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "f57c360f9754b65b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "2c0d5a14621a463f",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "03. Networking & Hybrid.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "d5ad0fc1a390252c",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "03. Networking & Hybrid.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "b08a2864391f50e8",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "03. Networking & Hybrid.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "184d95c42203fece",
+  "lastOpenFiles": [
+    "04. Storage Services.md",
+    "05. Compute, Scaling & Load Balancing.md",
+    "Exam Questions.md",
+    "Exam Tips.md",
+    "16. Everything Else.md",
+    "15. Disaster Recovery & Business Continuity in AWS.md",
+    "14. Advanced Security & Config Management.md",
+    "13. Deployment & Management.md",
+    "12. CloudFormation.md",
+    "11. Migrations & Extensions.md",
+    "10. Caching, Delivery & Edge.md",
+    "09. App Services, Containers & Serverless.md",
+    "Solutions Architect Professional/Images/Pasted image 20231009161730.png.md",
+    "Solutions Architect Professional",
+    "Solutions Architect Professional/Images",
+    "08. Data Analytics.md",
+    "07. Databases.md",
+    "06. Monitoring, Logging & Cost Management.md",
+    "01. Advanced Permissions & Accounts.md",
+    "02. Advanced Identities & Federation.md",
+    "00. Associate Fundamentals.md",
+    "Slides.canvas",
+    "03. Networking & Hybrid.md",
+    "-01. Networking Fundamentals.md",
+    "4. Storage Services.md",
+    "Images/Pasted image 20231001120518.png",
+    "Images/Pasted image 20231006192938.png",
+    "Images/Pasted image 20231013155031.png",
+    "Images/Pasted image 20230929164042.png",
+    "Images/Pasted image 20231030193939.png",
+    "Images/Pasted image 20230925102511.png",
+    "Images/Pasted image 20231030194110.png",
+    "Images/image-20230928174312819.png",
+    "Images/Pasted image 20231009134444.png",
+    "Images/Pasted image 20231009161730.png",
+    "8. Data Analytics.md",
+    "7. Databases.md",
+    "0. SAA Revision.md",
+    "1. Advanced Permissions & Accounts.md"
+  ]
+}

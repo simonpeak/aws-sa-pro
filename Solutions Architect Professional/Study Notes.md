@@ -1,6 +1,6 @@
-Glue - Job bookmarks allow jobs to resume if interrupted
+**AWS Glue** - Job bookmarks allow jobs to resume if interrupted
 
-R53 - Remember that an Active-Active Failover uses all available resources all the time without a primary nor a secondary resource.
+**Route 53** - Remember that an Active-Active Failover uses all available resources all the time without a primary nor a secondary resource.
 
 **S3 Select** enables applications to retrieve only a subset of data from an object by using simple SQL expressions. You can perform S3 Select to query only the necessary data inside the CSV files based on the bucket’s name and the object’s key.
 
@@ -82,20 +82,6 @@ The scenario requires you to select a cost-effective service that does not have 
 
 **Amazon Kinesis Data Streams** supports _resharding_, which lets you adjust the number of shards in your stream to adapt to changes in the rate of data flow through the stream. Resharding is considered an advanced operation.
 
-**AMI Image** IDs are unique to a region, keep in mind for CF/TF template portability
-
-SSE-C vs SSE-KMS vs Client Side Encryption
-
-Cloudfront improves static and dynamic content
-
-EFS doesn't traverse public internet in a VPC, no endpoint needed
-
-AWS VPCS don't support multicast, has to be done at OS layer
-
-EIPs are per account per region not per AZ
-
-Instance store data is lost on stopped terminated and instance failure
-
 **CloudFront EC2** The scenario uses an EC2 instance as an origin. Take note that we can also use an EC2 instance or a custom origin in configuring CloudFront. To achieve high availability in an EC2 instance, we need to deploy the instances in two or more Availability Zones. You also need to configure the instances to be part of the origin group to ensure that the application is highly available.
 
 In **Amazon Pinpoint,** an _event_ is an action that occurs when a user interacts with one of your applications, when you send a message from a campaign or journey, or when you send a transactional SMS or email message. For example, if you send an email message, several events occur:
@@ -120,19 +106,28 @@ If you recall, data transferred between Amazon EC2, Amazon RDS, Amazon Redshift,
 
 **Amazon Kinesis Data Streams (KDS)** is a massively scalable and durable real-time data streaming service. KDS can continuously capture gigabytes of data per second from hundreds of thousands of sources. You can use an AWS Lambda function to process records in Amazon KDS. By default, Lambda invokes your function as soon as records are available in the stream. Lambda can process up to 10 batches in each shard simultaneously.
 
-The EC2 instances in an Auto Scaling group have a path, or lifecycle, that differs from that of other EC2 instances. You can add a **lifecycle hook** to your Auto Scaling group so that you can perform custom actions when instances launch or terminate.
-![](https://media.tutorialsdojo.com/public/auto_scaling_lifecycle.png)
+**Aurora Global DB - Switchover** This operation was previously called "managed planned failover." Use this approach for controlled scenarios, such as operational maintenance and other planned operational procedures. Because this feature synchronizes secondary DB clusters with the primary before making any other changes, RPO is 0 (no data loss).
 
-ECS task roles vs service
+**Intel Hyper-Threading Technology** makes a single physical processor appear as multiple logical processors. Most HPC applications will benefit from disabling hyperthreading.
 
+**AWS Backup** can automatically back up data that is in S3 buckets, Storage Gateway volumes, EBS volumes, EFS file systems, and RDS databases.
 
-Questions:
+**Organizations** is an account-management service in which trusted access allows supported AWS services such as **AWS Config** to perform tasks across accounts in the organization. AWS Config also supports a delegated administrator that can implement conformance packs across multiple accounts and achieve consistent compliance without any unauthorized modifications.
 
-What is AWS AppSync?
-What order are NACL rules evaluated in?
-How long do Glacier Expedited Retrievals take?
-What is the difference between Launch Templates and Launch configurations?
-What CIDR ranges are supported in a VPC?
-What does Redshift Spectrum allow?
-What is the default retention for an SQS queue?
-What is the EC2 Autoscaling cooldown period?
+https://docs.aws.amazon.com/organizations/latest/userguide/orgs_integrate_services_list.html
+
+**MemoryDB for Redis** is a durable, in-memory managed database for workloads that require an ultra-fast, primary database. https://docs.aws.amazon.com/memorydb/latest/devguide/what-is-memorydb-for-redis.html
+
+**AWS Replication Agent** is part of AWS Application Migration Service. The AWS Replication Agent performs an initial block-level read of the content of any volume attached to the server and replicates it to the replication server.
+
+**Route 53 Application Recovery Controller** routing controls provide simple on/off switches that give you the ability to direct traffic from one replica to another. These routing controls are based on Route 53 health checks that you configure. The Route 53 health checks become healthy or unhealthy by toggling routing controls. Based on multiple metrics from various application components, you can automate the toggling of these routing controls with CloudWatch alarms and Lambda functions. For more information about Route 53 Application Recovery Controller routing controls, see [Routing Control in Amazon Route 53 Application Recovery Controller](https://docs.aws.amazon.com/r53recovery/latest/dg/routing-control.html).
+
+Virtual Private Gateway (VGW) vs Direct Connect Gateway (DGW) vs Transit Gateway (TGW)
+
+![[Images/Pasted image 20231120091211.png]]
+
+Organizations provides centralized account management in a hierarchical fashion through OUs and policies. **You should create separate security accounts for logging, security tooling, read-only access, and emergency access (break-glass access), especially for advanced organizations.**
+
+Tag policies help standardize tags across resources in an organization's accounts. You can use Resource Groups to detect noncompliant resources and generate a report so that you can make corrections. **You can use SCPs to enforce the use of tags within the organization.** https://docs.aws.amazon.com/ARG/latest/userguide/resource-groups.html
+
+FIFO queues can enhance message transmission between applications when the order of operations and events is critical or when duplicates are not acceptable. **A custom metric to scale based on an acceptable backlog per instance would base the scaling on the system load in the SQS queue.** The custom metric is calculated based on the approximate number of messages, processing latency, and the number of running EC2 instances. This solution provides more accurate scaling. An SQS Queue's ApproximateNumberOfMessagesVisible metric will not change in proportion to the size of the Auto Scaling group that processes messages.
