@@ -124,7 +124,7 @@ https://docs.aws.amazon.com/organizations/latest/userguide/orgs_integrate_servic
 
 Virtual Private Gateway (VGW) vs Direct Connect Gateway (DGW) vs Transit Gateway (TGW)
 
-![[Images/Pasted image 20231120091211.png]]
+![[Images/vgw_dgw_tgw.png]]
 
 Organizations provides centralized account management in a hierarchical fashion through OUs and policies. **You should create separate security accounts for logging, security tooling, read-only access, and emergency access (break-glass access), especially for advanced organizations.**
 
